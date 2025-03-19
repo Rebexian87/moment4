@@ -12,3 +12,20 @@ text-shadow: 8px 8px 8px rgba(0.5,0.5,0.5, 0.5); /*Text får skugga*/
 }
 
 
+.picturekatt {
+    position: relative;
+    animation-name: catPawMove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes catPawMove {
+    0% {left:0px; top: 0px}
+    40% {left:200px; top:100px}
+    60% {left:400px;  top:200px}
+    80% {left:600px; top:100px}
+    100% {left:800px; top: 0px}
+   
+}
+
