@@ -1,0 +1,14 @@
+#animeringh1 {  cursor: pointer;
+    font-size: 50px;
+    transition: 1s;}  /*Gör så att det blir en viss fördröjning nr man hovrar över text*/
+
+
+#animeringh1:hover {   /*detta händer när man hovrar över överskriften*/
+transform: skew(-10deg);    /*Text vrider sig*/
+text-shadow: 8px 8px 8px rgba(0.5,0.5,0.5, 0.5); /*Text får skugga*/
+ font-size: 80px; /*Text ändar storlek*/
+ font-weight: bold /*Text blir bold*/;
+ color: rgb(129, 86, 5); /*text ändrar färg*/
+}
+
+
