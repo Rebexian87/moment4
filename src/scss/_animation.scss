@@ -15,7 +15,7 @@ text-shadow: 8px 8px 8px rgba(0.5,0.5,0.5, 0.5); /*Text får skugga*/
 }
 
 
-.picturekatt { /*Bilder på katttassar som ska röra sig med hjälp av animering*/
+.picturekatt { /*Bilder på kattassar som ska röra sig med hjälp av animering*/
     position: relative; 
     animation-name: catPawMove;  /*namn på animering*/
     animation-duration: 5s;   /*så här länga varar animeringen*/
